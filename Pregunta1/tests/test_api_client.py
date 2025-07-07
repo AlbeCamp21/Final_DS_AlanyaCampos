@@ -2,6 +2,7 @@ import pytest
 from unittest.mock import patch, create_autospec, Mock
 import requests
 
+
 # patch que permite reemplazar el requests.get con un mock
 # para simular una respuesta de laAPI sin tener que hacer un request real
 @patch('requests.get')
