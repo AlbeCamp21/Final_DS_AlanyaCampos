@@ -70,3 +70,13 @@ docker run -it contenedor_pregunta1
 # Estando en el contenedor
 ls
 ```
+
+### Comentarios sustantivos:
+
+#### 1. Justificando
+En el test test_auth.py, se testea usuarios de manera 'simple', debido a que no se especifica en la descripcion de la pregunta que usuarios deben ser.
+
+#### 2. Duda
+En el test test_api_client.py, se puede mejorar el archivo, añadiendo más pruebas para que se abarque más:
+- Multiples llamadas a la API.
+- Fallos de red simuladas.
